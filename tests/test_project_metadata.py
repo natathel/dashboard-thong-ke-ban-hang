@@ -10,5 +10,5 @@ def test_runtime_database_is_ignored():
     assert 'app.db' in Path('.gitignore').read_text(encoding='utf-8')
 
 
-def test_project_marker_2():
+def test_project_marker_1():
     assert 'Dashboard Thống Kê Bán Hàng'
