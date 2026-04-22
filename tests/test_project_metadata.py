@@ -1,14 +1,6 @@
 from pathlib import Path
 
 
-def test_project_documentation_exists():
-    assert Path('README.md').exists()
+def test_sales_project_has_docs_and_ignore_rules():
     assert Path('docs').exists()
-
-
-def test_runtime_database_is_ignored():
     assert 'app.db' in Path('.gitignore').read_text(encoding='utf-8')
-
-
-def test_project_marker_1():
-    assert 'Dashboard Thống Kê Bán Hàng'

@@ -1,7 +1,3 @@
-# Ghi chú schema - Dashboard Thống Kê Bán Hàng
+# Ghi chú schema
 
-Cập nhật: 2026-04-21T19:00:58Z
-
-- Kiểm tra bảng SQLite chính
-- Ghi nhận hướng mở rộng API
-- Bổ sung checklist vận hành dashboard
+- Cập nhật ghi chú phục vụ dashboard bán hàng và card KPI chính.
